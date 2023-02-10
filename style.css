@@ -1,0 +1,42 @@
+
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container
+{
+    display:flex;
+    flex-grow:1;
+    background-color:green;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    /* justify-content:flex-end; */
+    /* flex:1 1 auto; */
+}
+body{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    background-color:red;
+}
+
+.grid
+{
+    background-color:purple;
+    border:2px solid black;
+    height:750px;
+    width:750px;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:flex-start;
+}
+.grid div
+{
+    background-color:pink;
+    height:69px;
+    width:69px;
+}
